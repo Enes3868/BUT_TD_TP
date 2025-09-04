@@ -1,3 +1,7 @@
+#premier exo du 1.2
+
+print('plus grand nombre:')
+
 def nbr(a: float, b: float) -> float:
     """
     Cette fonction retourne le plus grand des deux nombres réels.
@@ -6,4 +10,34 @@ def nbr(a: float, b: float) -> float:
 
 print(nbr(2.7, 2.8))
 print(nbr(7.2, 7.2))
+
+
+
+
+#deuxième exo
+print('seuil:')
+
+
+
+
+
+def seuil(nbr: float, maxi: float = 10) -> bool:
+    """
+    cette fonction indique si la valeur passée est supérieur à un seuil
+
+    """
+    return nbr if nbr > maxi else None
+
+
+print(seuil(12))
+print(seuil(1))
+print(seuil(11))
+
+
+
+
+
+#troisième exo
+print('plus grand dune liste')
+
 
