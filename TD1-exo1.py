@@ -41,3 +41,13 @@ print(seuil(11))
 print('plus grand dune liste')
 
 
+def liste(valeurs: list) -> float:
+    """
+    Cette fonction retourne la plus grande valeur d'une liste de nombres.
+
+    """
+    return max(valeurs)
+
+print(liste([1, 2 , 3, 4, 5, 6]))
+
+
