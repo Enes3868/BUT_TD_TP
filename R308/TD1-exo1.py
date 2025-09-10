@@ -23,7 +23,7 @@ print('seuil:')
 
 def seuil(nbr: float, maxi: float = 10) -> bool:
     """
-    cette fonction indique si la valeur passée est supérieur à un seuil
+    cette fonction indique si la valeur passée est supérieur à un seuil.
 
     """
     return nbr if nbr > maxi else None
