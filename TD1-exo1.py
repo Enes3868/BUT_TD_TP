@@ -38,17 +38,14 @@ print(seuil(11))
 
 
 #troisième exo
-print('plus grand dune liste')
+def maximum (*args) -> float:
+    max : float = args[0]
+    for p in args:
+        if p > max:
+            max = p
+    return max
 
-
-def liste(valeurs: list) -> float:
-    """
-    Cette fonction retourne la plus grande valeur d'une liste de nombres.
-
-    """
-    return max(valeurs)
-
-print(liste([1, 2 , 3, 4, 5, 6]))
+print(f'maximum:{maximum(12,23,14,2.5,4)}')
 
 
 
